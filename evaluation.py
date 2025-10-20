@@ -1,21 +1,36 @@
 # evaluation.py
-# Berisi fungsi untuk mengevaluasi performa model.
+# Menyediakan fungsi untuk evaluasi model pada skenario banjir.
 
 import torch
+import json
+from pathlib import Path
+from datetime import datetime
 import numpy as np
-from data_utils import prepare_mmi_tensors, get_nearest_mmi_tensor
-from osrm_utils import get_osrm_distance_cached
-from rl_core import compute_reward
+
 from device_config import DEVICE
-from logging_utils import get_or_create_log_file, save_multi_event_log
+from osrm_utils import get_osrm_distance_cached
+from data_utils import is_coord_in_flood_zone
+from rl_core import compute_flood_reward
+from logging_utils import get_or_create_log_file
 
 
-def evaluate_model(model, user_coords, evac_candidates, mmi_coords, mmi_values):
+def evaluate_only_and_log(
+    model,
+    event_id,
+    user_coords,
+    evac_candidates,
+    flood_polygons_gdf,
+    output_dir="evaluation_logs_banjir",
+):
     """
-    Mengevaluasi model dengan memilih aksi terbaik (skor tertinggi) secara deterministik.
+    Mengevaluasi model pada satu skenario banjir tanpa melakukan training,
+    lalu menyimpan hasilnya ke dalam file log.
     """
-    correct = 0
-    results = []
+    model.eval()  # Set model ke mode evaluasi
+    correct_predictions = 0
+    results_log = []
+
+    print(f"--- Mengevaluasi Skenario: {event_id} ---")
 
     with torch.no_grad():
         for user_lat, user_lon in user_coords:
@@ -26,15 +41,11 @@ def evaluate_model(model, user_coords, evac_candidates, mmi_coords, mmi_values):
                 dist_km = get_osrm_distance_cached(
                     user_lat, user_lon, evac_lat, evac_lon
                 )
-                if not np.isfinite(dist_km):
-                    continue
-
-                mmi, _ = get_nearest_mmi_tensor(
-                    evac_lat, evac_lon, mmi_coords, mmi_values
+                is_flooded = is_coord_in_flood_zone(
+                    flood_polygons_gdf, evac_lat, evac_lon
                 )
-                if not np.isfinite(mmi.item()):
-                    continue
 
+                # State yang diberikan ke model
                 state = torch.tensor(
                     [
                         user_lat / 100.0,
@@ -42,7 +53,7 @@ def evaluate_model(model, user_coords, evac_candidates, mmi_coords, mmi_values):
                         evac_lat / 100.0,
                         evac_lon / 100.0,
                         dist_km / 10.0,
-                        mmi.item() / 10.0,
+                        1.0 if is_flooded else 0.0,  # 1 jika banjir, 0 jika aman
                     ],
                     dtype=torch.float32,
                 ).to(DEVICE)
@@ -51,58 +62,55 @@ def evaluate_model(model, user_coords, evac_candidates, mmi_coords, mmi_values):
 
                 if score > best_score:
                     best_score = score
-                    best_action_details = (evac_lat, evac_lon)
+                    best_action_details = {
+                        "evac_lat": evac_lat,
+                        "evac_lon": evac_lon,
+                        "dist_km": dist_km,
+                        "is_flooded": is_flooded,
+                    }
 
             if best_action_details is None:
                 continue
 
-            best_evac_lat, best_evac_lon = best_action_details
-            reward, mmi_val, dist_km = compute_reward(
-                user_lat, user_lon, best_evac_lat, best_evac_lon, mmi_coords, mmi_values
-            )
+            # Cek apakah pilihan terbaik model adalah pilihan yang valid (aman)
+            is_valid_choice = not best_action_details["is_flooded"]
+            if is_valid_choice:
+                correct_predictions += 1
 
-            is_valid = reward > 0  # Rute yang valid adalah yang reward-nya positif
-            correct += int(is_valid)
-
-            results.append(
+            results_log.append(
                 {
                     "user_coord": [user_lat, user_lon],
-                    "evac_coord": [best_evac_lat, best_evac_lon],
-                    "mmi": mmi_val,
-                    "distance_km": dist_km,
-                    "reward": reward,
-                    "valid": int(is_valid),
+                    "chosen_evac": [
+                        best_action_details["evac_lat"],
+                        best_action_details["evac_lon"],
+                    ],
+                    "distance_km": best_action_details["dist_km"],
+                    "is_flooded": best_action_details["is_flooded"],
+                    "is_valid": is_valid_choice,
                 }
             )
 
-    accuracy = (correct / len(user_coords)) if user_coords else 0.0
-    return results, accuracy
-
-
-def evaluate_only_and_log(
-    model, user_coords, evac_candidates, mmi_points, event_id, output_dir="logs"
-):
-    """
-    Hanya menjalankan evaluasi pada model yang diberikan (tanpa training) dan mencatat hasilnya.
-    """
-    mmi_coords, mmi_values = prepare_mmi_tensors(mmi_points)
-
-    eval_results, accuracy = evaluate_model(
-        model, user_coords, evac_candidates, mmi_coords, mmi_values
+    # Hitung akurasi
+    accuracy = (correct_predictions / len(user_coords)) * 100 if user_coords else 0
+    print(
+        f"Akurasi Pilihan Aman: {accuracy:.2f}% ({correct_predictions}/{len(user_coords)})"
     )
 
-    log_data = {
-        "event_id": event_id,
-        "success_rate": accuracy,
+    # Simpan log
+    log_file_path = get_or_create_log_file(output_dir)
+    try:
+        with open(log_file_path, "r") as f:
+            all_logs = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        all_logs = {}
+
+    all_logs[event_id] = {
+        "accuracy_percent": accuracy,
         "total_users": len(user_coords),
-        "successful_routes": int(accuracy * len(user_coords)),
-        "results": eval_results,
+        "safe_choices": correct_predictions,
+        "details": results_log,
     }
 
-    log_path = get_or_create_log_file(output_dir)
-    save_multi_event_log(event_id, log_data, log_path)
-
-    print(
-        f"✅ Event '{event_id}' dievaluasi | Tingkat Keberhasilan: {accuracy:.3f} | Log di: '{log_path.name}'"
-    )
-    return accuracy
+    with open(log_file_path, "w") as f:
+        json.dump(all_logs, f, indent=4)
+    print(f"📁 Log evaluasi untuk '{event_id}' disimpan di '{log_file_path}'")
