@@ -1,138 +1,183 @@
-# rl_core.py
-# Logika inti RL yang disesuaikan untuk skenario evakuasi banjir.
-
 import torch
-import torch.optim as optim
-import numpy as np
-from copy import deepcopy
 from torch.distributions import Categorical
-
 from device_config import DEVICE
-from config import INNER_LR, INNER_STEPS, GAMMA
-from data_utils import get_adaptive_evac_candidates, is_coord_in_flood_zone
 from osrm_utils import get_osrm_distance_cached
+from data_utils import is_coord_in_flood_zone, get_elevation_at_point
 
 
-def compute_flood_reward(user_lat, user_lon, evac_lat, evac_lon, flood_gdf):
+def compute_multi_objective_reward(
+    user_lat, user_lon, evac_lat, evac_lon, flood_gdf, user_elev=0.0, evac_elev=0.0
+):
     """
-    Menghitung reward berdasarkan status banjir dan jarak.
+    REVISI LOGIKA: LEBIH STRICT TERHADAP JARAK.
     """
-    is_flooded = is_coord_in_flood_zone(flood_gdf, evac_lat, evac_lon)
+    # 1. CEK BANJIR (CONSTRAINT MUTLAK)
+    if is_coord_in_flood_zone(flood_gdf, evac_lat, evac_lon):
+        return -100.0, True, 0.0
+
+    # 2. HITUNG JARAK OSRM
     dist_km = get_osrm_distance_cached(user_lat, user_lon, evac_lat, evac_lon)
 
-    # Penalti sangat besar jika titik evakuasi ternyata banjir
-    if is_flooded:
-        return -100.0, 1, dist_km  # 1 menandakan "banjir"
+    # 3. HITUNG BEDA ELEVASI
+    elev_diff = evac_elev - user_elev
 
-    # Reward berdasarkan kedekatan jarak jika aman
-    if dist_km <= 1.0:
-        reward = 100.0
+    reward = 0.0
+
+    # --- A. SKOR JARAK (PENALTI DIPERBERAT) ---
+    if dist_km <= 0.5:
+        reward += 100.0  # Sangat dekat (Emas)
+    elif dist_km <= 1.0:
+        reward += 70.0  # Dekat (Perak)
+    elif dist_km <= 1.5:
+        reward += 30.0  # Lumayan
     elif dist_km <= 2.0:
-        reward = 50.0
-    elif dist_km <= 3.0:
-        reward = 10.0
+        reward += 5.0  # Batas toleransi
     else:
-        reward = -20.0  # Penalti ringan untuk jarak yang terlalu jauh
+        # Jarak > 2km langsung kena hukuman berat!
+        # Rumus: -10 poin per km tambahannya
+        reward -= dist_km * 15.0
 
-    return reward, 0, dist_km  # 0 menandakan "aman"
+    # --- B. SKOR ELEVASI (DIBATASI) ---
+    # Kita batasi bonus elevasi agar tidak mengalahkan faktor jarak
+    # Maksimal bonus elevasi di-cap (misal max 20 poin)
+    if elev_diff > 0:
+        bonus = elev_diff * 2.0  # Faktor pengali dikurangi jadi 2.0
+        reward += min(bonus, 30.0)  # Capping: Maksimal bonus cuma 30
+    elif elev_diff < -1.0:
+        reward -= 10.0  # Penalti jika lari ke tempat lebih rendah
+
+    return reward, False, dist_km
 
 
-def rollout(policy, user_coords, evac_candidates, flood_gdf):
+def rollout(policy, user_coords, evac_candidates, flood_gdf, tif_path):
     """
-    Menjalankan episode untuk semua user dalam skenario banjir.
+    Revisi Rollout: Membatasi radius pencarian agar tidak melihat yang jauh-jauh.
     """
     trajectories = []
+
     for user_lat, user_lon in user_coords:
-        filtered_candidates, _ = get_adaptive_evac_candidates(
-            user_lat, user_lon, evac_candidates, flood_gdf
-        )
-        if not filtered_candidates:
-            continue
+        user_elev = get_elevation_at_point(tif_path, user_lat, user_lon)
 
-        scores = []
-        for evac_lat, evac_lon in filtered_candidates:
-            dist_km = get_osrm_distance_cached(user_lat, user_lon, evac_lat, evac_lon)
+        inputs = []
+        valid_indices = []
 
-            # --- REPRESENTASI STATE BARU ---
-            # Fitur ke-6 sekarang adalah 0 (aman), karena kita sudah memfilter
-            # kandidat yang tidak aman sebelumnya.
-            state = torch.tensor(
+        for idx, cand in enumerate(evac_candidates):
+            e_lat, e_lon = cand["coord"]
+            dist = get_osrm_distance_cached(user_lat, user_lon, e_lat, e_lon)
+
+            # --- FILTER KERAS ---
+            # Jangan biarkan agen melihat kandidat yang jaraknya > 3 km
+            # Biar dia fokus mencari solusi lokal.
+            if dist > 3.0:
+                continue
+
+            # Feature State: [u_lat, u_lon, e_lat, e_lon, dist, 0]
+            inputs.append(
                 [
                     user_lat / 100.0,
                     user_lon / 100.0,
-                    evac_lat / 100.0,
-                    evac_lon / 100.0,
-                    dist_km / 10.0,  # Normalisasi jarak
-                    0.0,  # Status bahaya (0 = aman)
-                ],
-                dtype=torch.float32,
-            ).to(DEVICE)
-            scores.append(policy(state).squeeze())
+                    e_lat / 100.0,
+                    e_lon / 100.0,
+                    dist / 10.0,
+                    0.0,
+                ]
+            )
+            valid_indices.append(idx)
 
-        if not scores:
+        # Jika tidak ada kandidat dalam radius 3km, terpaksa cari yang agak jauh (fallback)
+        if not inputs:
+            for idx, cand in enumerate(evac_candidates):
+                e_lat, e_lon = cand["coord"]
+                dist = get_osrm_distance_cached(user_lat, user_lon, e_lat, e_lon)
+                if dist > 10.0:
+                    continue  # Limit absolut 10km
+                inputs.append(
+                    [
+                        user_lat / 100.0,
+                        user_lon / 100.0,
+                        e_lat / 100.0,
+                        e_lon / 100.0,
+                        dist / 10.0,
+                        0.0,
+                    ]
+                )
+                valid_indices.append(idx)
+
+        if not inputs:
             continue
 
-        scores_tensor = torch.stack(scores)
-        probs = torch.softmax(scores_tensor, dim=0)
+        input_tensor = torch.tensor(inputs, dtype=torch.float32).to(DEVICE)
 
-        if torch.any(torch.isnan(probs)) or torch.any(probs <= 0):
+        # ... (Sisa kode sama) ...
+        scores = policy(input_tensor).squeeze()
+        if scores.dim() == 0:
+            scores = scores.unsqueeze(0)
+
+        # Safety check untuk NaN scores
+        if torch.isnan(scores).any():
+            continue
+
+        probs = torch.softmax(scores, dim=0)
+
+        # Safety check untuk NaN probs
+        if torch.isnan(probs).any():
             continue
 
         m = Categorical(probs)
-        action = m.sample()
+        action_idx = m.sample()
 
-        chosen_evac_lat, chosen_evac_lon = filtered_candidates[action.item()]
+        real_idx = valid_indices[action_idx.item()]
+        chosen = evac_candidates[real_idx]
+        e_lat, e_lon = chosen["coord"]
+        e_elev = chosen["elev"]
 
-        # Panggil fungsi reward baru untuk skenario banjir
-        reward, _, _ = compute_flood_reward(
-            user_lat, user_lon, chosen_evac_lat, chosen_evac_lon, flood_gdf
+        reward, is_flood, dist = compute_multi_objective_reward(
+            user_lat,
+            user_lon,
+            e_lat,
+            e_lon,
+            flood_gdf,
+            user_elev=user_elev,
+            evac_elev=e_elev,
         )
 
-        trajectories.append({"log_prob": m.log_prob(action), "reward": reward})
+        trajectories.append(
+            {
+                "log_prob": m.log_prob(action_idx),
+                "reward": reward,
+                "details": {
+                    "name": chosen["name"],
+                    "dist": dist,
+                    "elev_diff": e_elev - user_elev,
+                },
+            }
+        )
 
     return trajectories
 
 
+# ... (biarkan fungsi compute_loss sama) ...
 def compute_loss(log_probs, rewards):
-    """
-    Menghitung loss REINFORCE dari log-probabilities dan rewards.
-    """
-    returns, G = [], 0
-    for r in reversed(rewards):
-        G = r + GAMMA * G
-        returns.insert(0, G)
+    """Menghitung loss function (Standard REINFORCE)."""
+    loss = 0
+    returns = []
+    R = 0
 
-    returns = torch.tensor(returns, dtype=torch.float32).to(DEVICE)
-    # Normalisasi returns untuk stabilitas training
-    returns = (returns - returns.mean()) / (returns.std() + 1e-8)
+    # Calculate returns (cumulative reward discounted)
+    for r in rewards[::-1]:
+        R = r + 0.99 * R
+        returns.insert(0, R)
 
-    log_probs = torch.stack(log_probs)
-    loss = -(log_probs * returns).sum()
+    returns = torch.tensor(returns).to(DEVICE)
+    # Normalisasi returns (PENTING AGAR STABIL)
+    if returns.numel() > 1:
+        returns = (returns - returns.mean()) / (returns.std() + 1e-9)
+
+    loss_list = []
+    for log_prob, R in zip(log_probs, returns):
+        loss_list.append(-log_prob * R)
+
+    if loss_list:
+        loss = torch.stack(loss_list).sum()
+
     return loss
-
-
-def adapt(model, user_coords, evac_candidates, flood_gdf):
-    """
-    Menjalankan beberapa langkah adaptasi (inner loop) pada salinan model
-    untuk satu task spesifik (skenario banjir).
-    """
-    model_adapted = deepcopy(model)
-    optimizer = optim.SGD(model_adapted.parameters(), lr=INNER_LR)
-
-    for _ in range(INNER_STEPS):
-        # Hasilkan trajektori menggunakan data banjir
-        trajectories = rollout(model_adapted, user_coords, evac_candidates, flood_gdf)
-
-        if not trajectories:
-            continue  # Lewati step jika tidak ada data valid
-
-        log_probs = [t["log_prob"] for t in trajectories]
-        rewards = [t["reward"] for t in trajectories]
-
-        loss = compute_loss(log_probs, rewards)
-
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-
-    return model_adapted

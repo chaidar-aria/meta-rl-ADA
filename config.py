@@ -1,22 +1,22 @@
-GAMMA = 0.9
-LEARNING_RATE = 1e-3
-MAX_EPISODES = 100
-INNER_LR = 1e-2
-INNER_STEPS = 5
-MAX_META_ITER = 300
-EPSILON = 0.1
-BASE_URL_OSRM = "http://localhost:3006"
-
 # config.py
+import os
 
-# Ganti ini jadi True jika ingin generate titik user dari SHP (evaluasi / inferensi)
-USE_SHP_FOR_USER = False
+# Base Directory
+DATA_DIR = "./dataset"
 
-# SHP path jika pakai SHP
-SHP_PATH = "./kota-surabaya/PEMUKIMAN_AR_25K.shp"
+# File Paths (SESUAIKAN DENGAN FILE BARU)
+FLOOD_SHP_PATH = os.path.join(DATA_DIR, "Genangan Revisi Lagi.shp")
+EVAC_GEOJSON_PATH = os.path.join(
+    DATA_DIR, "titik_evakuasi_2_dengan_alamat baru.geojson"
+)
+USER_SHP_PATH = os.path.join(DATA_DIR, "PEMUKIMAN_AR_25K.shp")
+ELEVATION_TIF_PATH = os.path.join(DATA_DIR, "output_hh.tif")
 
-# Jumlah titik pengguna
-N_USER_POINTS = 50
+# Hyperparameters
+LEARNING_RATE = 1e-3
+GAMMA = 0.99
+NUM_EPISODES = 200
 
-# Path JSON user untuk mode training
-USER_JSON_PATH = "./kota-surabaya/user_coords_train.json"
+
+# OSRM Server Configuration
+BASE_URL_OSRM = "http://localhost:3006"

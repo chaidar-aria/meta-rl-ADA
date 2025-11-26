@@ -1,0 +1,3350 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.725,
+          -7.302
+        ]
+      },
+      "properties": {
+        "id": "1",
+        "Evakuasi": "Brawijaya Driving Range",
+        "alamat": "Jl. Hayam Wuruk No.54A, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.723,
+          -7.301
+        ]
+      },
+      "properties": {
+        "id": "2",
+        "Evakuasi": "Kodam V Brawijaya",
+        "alamat": "Jl. Raden Wijaya No.1, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.726,
+          -7.301
+        ]
+      },
+      "properties": {
+        "id": "3",
+        "Evakuasi": "Gedung Olahraga Kodam V Brawijaya",
+        "alamat": "Jl. Hayam Wuruk No.17-42, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.722,
+          -7.305
+        ]
+      },
+      "properties": {
+        "id": "4",
+        "Evakuasi": "Lapangan Tenis Brengah",
+        "alamat": "Jl. Hayam Wuruk No.18, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.73,
+          -7.294
+        ]
+      },
+      "properties": {
+        "id": "5",
+        "Evakuasi": "KPU Kota Surabaya",
+        "alamat": "Jl. Adityawarman No.87, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.729,
+          -7.294
+        ]
+      },
+      "properties": {
+        "id": "6",
+        "Evakuasi": "Kantor Partai Golkar",
+        "alamat": "PP4H+WF3, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.73,
+          -7.294
+        ]
+      },
+      "properties": {
+        "id": "7",
+        "Evakuasi": "Perwakilan Ombudsman RI Provinsi JaTim",
+        "alamat": "Jl. Indragiri No.62, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.731,
+          -7.294
+        ]
+      },
+      "properties": {
+        "id": "8",
+        "Evakuasi": "Toro's Office",
+        "alamat": "Jl. Adityawarman No.79, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.734,
+          -7.296
+        ]
+      },
+      "properties": {
+        "id": "9",
+        "Evakuasi": "Fit Hub adityawarman",
+        "alamat": "Jl. Adityawarman No.39, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.732,
+          -7.298
+        ]
+      },
+      "properties": {
+        "id": "10",
+        "Evakuasi": "Masjid Al-Amin LDII",
+        "alamat": "Gg. Kedurus II No.85, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.729,
+          -7.295
+        ]
+      },
+      "properties": {
+        "id": "11",
+        "Evakuasi": "TownSquare Surabaya",
+        "alamat": "Jl. Hayam Wuruk No.6, RT.005/RW.11, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.729,
+          -7.296
+        ]
+      },
+      "properties": {
+        "id": "12",
+        "Evakuasi": "ARTOTEL TS Suites Surabaya",
+        "alamat": "Jl. Hayam Wuruk No.6, Sawunggaling, Wonokromo, Surabaya, East Java 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.737,
+          -7.299
+        ]
+      },
+      "properties": {
+        "id": "13",
+        "Evakuasi": "SMP St. Yosef Surabaya",
+        "alamat": "Jl. Joyoboyo No.19, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.737,
+          -7.298
+        ]
+      },
+      "properties": {
+        "id": "14",
+        "Evakuasi": "Tunnel Joyoboyo-KBS",
+        "alamat": "PP2P+GPG, Jl. Joyoboyo, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.736,
+          -7.295
+        ]
+      },
+      "properties": {
+        "id": "15",
+        "Evakuasi": "Kebun Binatang Surabaya",
+        "alamat": "Jl. Setail No.1, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.723,
+          -7.297
+        ]
+      },
+      "properties": {
+        "id": "16",
+        "Evakuasi": "Rumah Sakit Tk. III Brawijaya",
+        "alamat": "Jl. Kesatriyan No.17, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.73,
+          -7.297
+        ]
+      },
+      "properties": {
+        "id": "17",
+        "Evakuasi": "Datasemen Polisi Militer V/4 Surabaya",
+        "alamat": "Jl. Hayam Wuruk No.5, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.727,
+          -7.295
+        ]
+      },
+      "properties": {
+        "id": "18",
+        "Evakuasi": "Stadion Brawijaya",
+        "alamat": "Jl. Brawijaya No.42a, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.29
+        ]
+      },
+      "properties": {
+        "id": "19",
+        "Evakuasi": "Taman Bungkul",
+        "alamat": "Jl. Taman Bungkul, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.292
+        ]
+      },
+      "properties": {
+        "id": "20",
+        "Evakuasi": "Grand Darmo Suite",
+        "alamat": "Jl. Progo No.1-3, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.291
+        ]
+      },
+      "properties": {
+        "id": "21",
+        "Evakuasi": "RS TNI AU Soemitro",
+        "alamat": "Jl. Serayu No.17, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.737,
+          -7.291
+        ]
+      },
+      "properties": {
+        "id": "22",
+        "Evakuasi": "RS William Booth Surabaya",
+        "alamat": "Jl. Diponegoro No.34, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.733,
+          -7.284
+        ]
+      },
+      "properties": {
+        "id": "23",
+        "Evakuasi": "SPBU Pertamina Diponegoro",
+        "alamat": "Jl. Diponegoro No.221, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.733,
+          -7.285
+        ]
+      },
+      "properties": {
+        "id": "24",
+        "Evakuasi": "Great Diponegoro Hotel Surabaya",
+        "alamat": "Jl. Diponegoro No.215, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.73,
+          -7.285
+        ]
+      },
+      "properties": {
+        "id": "25",
+        "Evakuasi": "Masjid Rahmat Kembang Kuning",
+        "alamat": "Jl. Kembang Kuning No.79-81, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60256"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.731,
+          -7.287
+        ]
+      },
+      "properties": {
+        "id": "26",
+        "Evakuasi": "Lapangan THOR",
+        "alamat": "Jl. Patmosusastro, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60256"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.732,
+          -7.287
+        ]
+      },
+      "properties": {
+        "id": "27",
+        "Evakuasi": "GOR Pancasila",
+        "alamat": "Jl. Patmosusastro No.12, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60256"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.732,
+          -7.289
+        ]
+      },
+      "properties": {
+        "id": "28",
+        "Evakuasi": "Lapangan Bola Bogowonto",
+        "alamat": "Jl. Bogowonto No.30, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.735,
+          -7.292
+        ]
+      },
+      "properties": {
+        "id": "29",
+        "Evakuasi": "Rumah Sakit Katolik Surabaya",
+        "alamat": "PP5P+953, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.735,
+          -7.291
+        ]
+      },
+      "properties": {
+        "id": "30",
+        "Evakuasi": "Rumah Sakit katolik St. Vincentius a paulo",
+        "alamat": "Jl. Diponegoro No.51, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.738,
+          -7.294
+        ]
+      },
+      "properties": {
+        "id": "31",
+        "Evakuasi": "Hotel Oval",
+        "alamat": "Jl. Diponegoro No.23, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.732,
+          -7.282
+        ]
+      },
+      "properties": {
+        "id": "32",
+        "Evakuasi": "Giant Diponegoro",
+        "alamat": "Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.296
+        ]
+      },
+      "properties": {
+        "id": "33",
+        "Evakuasi": "Yayasan Masjid Nurudl Adha",
+        "alamat": "Jl. Darmorejo IV No.14-B, RT.008/RW.04, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.293
+        ]
+      },
+      "properties": {
+        "id": "34",
+        "Evakuasi": "EOS (Entrepreneur Office Solutions) Darmokali",
+        "alamat": "Jl. Darmokali No.34, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.293
+        ]
+      },
+      "properties": {
+        "id": "35",
+        "Evakuasi": "PT Pertamina Gas",
+        "alamat": "Jl. Darmokali No.40-42, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.292
+        ]
+      },
+      "properties": {
+        "id": "36",
+        "Evakuasi": "Grand Darmo Suite",
+        "alamat": "Jl. Progo No.1-3, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.291
+        ]
+      },
+      "properties": {
+        "id": "37",
+        "Evakuasi": "Taman Bungkul",
+        "alamat": "Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.736,
+          -7.292
+        ]
+      },
+      "properties": {
+        "id": "38",
+        "Evakuasi": "Wisma Sehati Surabaya",
+        "alamat": "Jl. Diponegoro No.19-21, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.735,
+          -7.293
+        ]
+      },
+      "properties": {
+        "id": "39",
+        "Evakuasi": "STIKES Katolik St. Vincentius A Paulo",
+        "alamat": "Jl. Jambi No.12 - 18, Darmo, Kec. Wonokromo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.275
+        ]
+      },
+      "properties": {
+        "id": "40",
+        "Evakuasi": "Pasar Keputran Utara",
+        "alamat": "Jl. Urip Sumoharjo, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.286
+        ]
+      },
+      "properties": {
+        "id": "41",
+        "Evakuasi": "Halim Design & Furniture",
+        "alamat": "Jl. Raya Darmo No. 93, Surabaya 60241/60264."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.287
+        ]
+      },
+      "properties": {
+        "id": "42",
+        "Evakuasi": "Bank Mega",
+        "alamat": "Jl. Raya Darmo No.95A, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.289
+        ]
+      },
+      "properties": {
+        "id": "43",
+        "Evakuasi": "yayasan Kaliandra Sejati",
+        "alamat": "7M34+H77, Gamoh Dayurejo, Area Sawah, Jatiarjo, Kec. Prigen, Pasuruan, Jawa Timur 67157"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.284
+        ]
+      },
+      "properties": {
+        "id": "44",
+        "Evakuasi": "Sekolah Dasar Santa Maria Surabaya",
+        "alamat": "Jl. Tumapel No.10, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.282
+        ]
+      },
+      "properties": {
+        "id": "45",
+        "Evakuasi": "Ikatan Alumni SMAK St. louis 1",
+        "alamat": "Jl. Polisi Istimewa No.7, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.742,
+          -7.279
+        ]
+      },
+      "properties": {
+        "id": "46",
+        "Evakuasi": "BCA KCU Darmo",
+        "alamat": "Jl. Raya Darmo No.5, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.742,
+          -7.278
+        ]
+      },
+      "properties": {
+        "id": "47",
+        "Evakuasi": "RedDoorz Urip Sumoharjo",
+        "alamat": "Jl. Urip Sumoharjo No.65 - 67, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.744,
+          -7.279
+        ]
+      },
+      "properties": {
+        "id": "48",
+        "Evakuasi": "Istana Permata Hotel Dinoyo",
+        "alamat": "Jl. Dinoyo No.5, RW.9, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.744,
+          -7.278
+        ]
+      },
+      "properties": {
+        "id": "49",
+        "Evakuasi": "Pasar Keputran Selatan",
+        "alamat": "Jl. Dinoyo No.3, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.746,
+          -7.285
+        ]
+      },
+      "properties": {
+        "id": "50",
+        "Evakuasi": "Gedung Keuangan Negara (GKN) II Surabaya",
+        "alamat": "No.111, 60008, Gedung Keuangan Negara II Jl. Dinoyo No.111 Lantai 04, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.745,
+          -7.281
+        ]
+      },
+      "properties": {
+        "id": "51",
+        "Evakuasi": "Universitas Katolik Widya mandala Surabaya-Dinoyo",
+        "alamat": "Jl. Dinoyo No.42-44, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.744,
+          -7.28
+        ]
+      },
+      "properties": {
+        "id": "52",
+        "Evakuasi": "SMA Katolik St. Louis 1 Surabaya",
+        "alamat": "Jl. Polisi Istimewa No.7, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.742,
+          -7.281
+        ]
+      },
+      "properties": {
+        "id": "53",
+        "Evakuasi": "Gereja Katedral Surabaya-Hati Kudus yesus",
+        "alamat": "Jl. Polisi Istimewa No.15, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.744,
+          -7.281
+        ]
+      },
+      "properties": {
+        "id": "54",
+        "Evakuasi": "Akademi Sekretari widya Mandala Surabaya",
+        "alamat": "Jl. Dinoyo No.42, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.281
+        ]
+      },
+      "properties": {
+        "id": "55",
+        "Evakuasi": "SMP Santa Katarina",
+        "alamat": "Jl. Mojopahit No.38, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.284
+        ]
+      },
+      "properties": {
+        "id": "57",
+        "Evakuasi": "SDN Keputran I",
+        "alamat": "Jl. Dinoyo Sekolahan I No.1, RT.001/RW.04, Keputran, Kec. Tegalsari, Surabaya, Jawa Timur 60265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.731,
+          -7.275
+        ]
+      },
+      "properties": {
+        "id": "58",
+        "Evakuasi": "Gereja Baptis Indonesia Indonesia Pengharapan",
+        "alamat": "Jl. Pandegiling No.213A, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.731,
+          -7.275
+        ]
+      },
+      "properties": {
+        "id": "59",
+        "Evakuasi": "Sekolah dasar kristen Baptis pengharapan",
+        "alamat": "Jl. Pandegiling No.213, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.733,
+          -7.276
+        ]
+      },
+      "properties": {
+        "id": "60",
+        "Evakuasi": "KB-TK Khadijah Pandegiling",
+        "alamat": "Jl. Pandegiling No.217, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.288
+        ]
+      },
+      "properties": {
+        "id": "61",
+        "Evakuasi": "Rumah Sakit darmo",
+        "alamat": "Jl. Raya Darmo No.90, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.286
+        ]
+      },
+      "properties": {
+        "id": "62",
+        "Evakuasi": "Mercure Surabaya Grand Mirama",
+        "alamat": "Jl. Raya Darmo No.68 - 78, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.286
+        ]
+      },
+      "properties": {
+        "id": "63",
+        "Evakuasi": "Quest Hotel Darmo Surabaya",
+        "alamat": "Jl. Ronggolawe No.27 - 29, Wonorejo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.738,
+          -7.287
+        ]
+      },
+      "properties": {
+        "id": "64",
+        "Evakuasi": "Grand Swiss-Belhotel Darmo Surabaya",
+        "alamat": "Jl. Bintoro No.21 - 25, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.738,
+          -7.286
+        ]
+      },
+      "properties": {
+        "id": "65",
+        "Evakuasi": "Amaris Hotel Darmo Surabaya",
+        "alamat": "Jl. Taman Bintoro No. 3-5, DR. Soetomo, Tegalsari, Surabaya, East Java 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.737,
+          -7.288
+        ]
+      },
+      "properties": {
+        "id": "66",
+        "Evakuasi": "Edubia-Bimbel Les Privat Surabaya",
+        "alamat": "Jl. Cimanuk No.3, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.283
+        ]
+      },
+      "properties": {
+        "id": "67",
+        "Evakuasi": "Konsulat Republik Federal Jerman",
+        "alamat": "Jalan Doktor Wahidin No.29, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.282
+        ]
+      },
+      "properties": {
+        "id": "68",
+        "Evakuasi": "Graha Wismilak",
+        "alamat": "PP9R+62R Wismilak, DR. Soetomo, Tegalsari, Surabaya, East Java 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.732,
+          -7.277
+        ]
+      },
+      "properties": {
+        "id": "69",
+        "Evakuasi": "Laboratorium Klinik Biotest",
+        "alamat": "Jl. R.A Kartini No.78, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.733,
+          -7.278
+        ]
+      },
+      "properties": {
+        "id": "70",
+        "Evakuasi": "Musholla SMPN 10 Surabaya",
+        "alamat": "Jl. Kupang Segunting VI No.42, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.733,
+          -7.281
+        ]
+      },
+      "properties": {
+        "id": "71",
+        "Evakuasi": "Lembaga Ilmu Pengetshuan Islam & Arab cbg Surabaya (LIPIA SBY)",
+        "alamat": "Jl. Diponegoro No.150, RT.002/RW.15, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.733,
+          -7.282
+        ]
+      },
+      "properties": {
+        "id": "72",
+        "Evakuasi": "House of Bikers Surabaya",
+        "alamat": "Jl. Diponegoro No.142, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.734,
+          -7.283
+        ]
+      },
+      "properties": {
+        "id": "73",
+        "Evakuasi": "Persatuan Karya Dharma Kesehatan Indonesia",
+        "alamat": "RSK St. Vincentius A Paulo, JL Diponegoro, No 51, DR. Soetomo, Surabaya, Jawa Timur 60241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.735,
+          -7.286
+        ]
+      },
+      "properties": {
+        "id": "74",
+        "Evakuasi": "SDN Dr. Soetomo V",
+        "alamat": "Jl. Trunojoyo No.84 001, RT.001/RW.19, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.735,
+          -7.284
+        ]
+      },
+      "properties": {
+        "id": "75",
+        "Evakuasi": "REGANTRIS HOTEL SURABAYA",
+        "alamat": "Jl. Dr. Soetomo No.79-81, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.734,
+          -7.285
+        ]
+      },
+      "properties": {
+        "id": "76",
+        "Evakuasi": "PT JASA RAHARJA KANWIL JAWA TIMUR",
+        "alamat": "Jl. Diponegoro No.98, RT.002/RW.15, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.735,
+          -7.284
+        ]
+      },
+      "properties": {
+        "id": "77",
+        "Evakuasi": "Yayasan Mardiwijana",
+        "alamat": "Jl. Trunojoyo No.69, RT.001/RW.19, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.737,
+          -7.286
+        ]
+      },
+      "properties": {
+        "id": "78",
+        "Evakuasi": "Oud Soerabaja Eclectisch huis in de Gemeente",
+        "alamat": "Jl. Taman Bintoro No.2, RT.004/RW.19, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.737,
+          -7.286
+        ]
+      },
+      "properties": {
+        "id": "79",
+        "Evakuasi": "MOOI House",
+        "alamat": "Jl. Untung Suropati No.101, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.737,
+          -7.286
+        ]
+      },
+      "properties": {
+        "id": "80",
+        "Evakuasi": "Rumah sakit Yayasan darus Safa",
+        "alamat": "Jl. Untung Suropati No.99, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.738,
+          -7.285
+        ]
+      },
+      "properties": {
+        "id": "81",
+        "Evakuasi": "Majelis taklim & Salat Jumat  Mercure Grand Mirama",
+        "alamat": "Jl. Ronggolawe No.10-12, RT.000/RW.00, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.738,
+          -7.285
+        ]
+      },
+      "properties": {
+        "id": "82",
+        "Evakuasi": "TOBY'S ESTETATE-Imam Bonjol",
+        "alamat": "Jl. Imam Bonjol No.119, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.284
+        ]
+      },
+      "properties": {
+        "id": "84",
+        "Evakuasi": "Puncak Nirwana",
+        "alamat": "Jl. Ronggolawe R No.8, RT.002/RW.20, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.283
+        ]
+      },
+      "properties": {
+        "id": "85",
+        "Evakuasi": "komp. darmo Square",
+        "alamat": "DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.284
+        ]
+      },
+      "properties": {
+        "id": "86",
+        "Evakuasi": "OMA ESTATE",
+        "alamat": "Jl. Ronggolawe No.19, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.284
+        ]
+      },
+      "properties": {
+        "id": "87",
+        "Evakuasi": "LAN HOA Restaurant Mercure Surabaya",
+        "alamat": "Jl. Raya Darmo No.68 - 78, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.737,
+          -7.283
+        ]
+      },
+      "properties": {
+        "id": "88",
+        "Evakuasi": "Dit Pamobvit Polda Jatim",
+        "alamat": "Jl. Dr. Soetomo No.82, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.737,
+          -7.282
+        ]
+      },
+      "properties": {
+        "id": "89",
+        "Evakuasi": "kantor Dewan Pengurus yayasan Yohannes Gabriel",
+        "alamat": "Jl. M.H. Thamrin No.29-31, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.738,
+          -7.281
+        ]
+      },
+      "properties": {
+        "id": "90",
+        "Evakuasi": "MOTE Training Center",
+        "alamat": "Jalan Doktor Wahidin No.1, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.282
+        ]
+      },
+      "properties": {
+        "id": "91",
+        "Evakuasi": "C2O library & Collabtive",
+        "alamat": "Jalan Doktor Cipto No.22, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.281
+        ]
+      },
+      "properties": {
+        "id": "92",
+        "Evakuasi": "PT Sentratek Metalindo",
+        "alamat": "Jalan Doktor Cipto No.:05, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.28
+        ]
+      },
+      "properties": {
+        "id": "93",
+        "Evakuasi": "PT. ASIA PRIMA KONJAC",
+        "alamat": "Jl. R.A Kartini No.35, RT.007/RW.11, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.738,
+          -7.28
+        ]
+      },
+      "properties": {
+        "id": "94",
+        "Evakuasi": "Edlink Surabaya",
+        "alamat": "Jl. R.A Kartini No.39, RW.41, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.28
+        ]
+      },
+      "properties": {
+        "id": "95",
+        "Evakuasi": "kristus kasih tabernacle pentecostal church",
+        "alamat": "Jl. WR. Supratman No.4, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.28
+        ]
+      },
+      "properties": {
+        "id": "96",
+        "Evakuasi": "gedung serbaguna keuskupan Surabaya",
+        "alamat": "Jl. WR. Supratman No.4, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.28
+        ]
+      },
+      "properties": {
+        "id": "97",
+        "Evakuasi": "Bukit Welirang Indah. PT",
+        "alamat": "JL Raya Darmo No. 23-25, Surabaya, 60189, DR. Soetomo, Tegalsari, Surabaya, East Java 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.736,
+          -7.28
+        ]
+      },
+      "properties": {
+        "id": "98",
+        "Evakuasi": "PT. Bintang Mas Glassolutions Surabaya",
+        "alamat": "Jl. WR. Supratman No.58, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.735,
+          -7.279
+        ]
+      },
+      "properties": {
+        "id": "99",
+        "Evakuasi": "Rehabilitas Medik dan Akupuntur Imam Bonjol",
+        "alamat": "Jl. Imam Bonjol No.47, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.736,
+          -7.279
+        ]
+      },
+      "properties": {
+        "id": "100",
+        "Evakuasi": "petra 1 Christian primary School WR Supratman Sby",
+        "alamat": "Jl. WR. Supratman No.46, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.734,
+          -7.279
+        ]
+      },
+      "properties": {
+        "id": "101",
+        "Evakuasi": "BSI UMKM Centre Surabaya",
+        "alamat": "Jl. R.A Kartini No.107-109, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.731,
+          -7.279
+        ]
+      },
+      "properties": {
+        "id": "102",
+        "Evakuasi": "Kharisma sejahtera daihatsu Surabaya",
+        "alamat": "Jl. Diponegoro No.170, DR. Soetomo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.733,
+          -7.267
+        ]
+      },
+      "properties": {
+        "id": "103",
+        "Evakuasi": "Metro Hotel",
+        "alamat": "Jl. Kedungsari No.109, Wonorejo, Kec. Tegalsari, Surabaya, Jawa Timur 60263"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.735,
+          -7.268
+        ]
+      },
+      "properties": {
+        "id": "104",
+        "Evakuasi": "Best Hotel surabaya",
+        "alamat": "Jl. Kedungsari No.29, Wonorejo, Kec. Tegalsari, Surabaya, Jawa Timur 60263"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.731,
+          -7.267
+        ]
+      },
+      "properties": {
+        "id": "105",
+        "Evakuasi": "Perusahaan AKI HYBRID",
+        "alamat": "Jl. Wonorejo I No.95, Wonorejo, Kec. Tegalsari, Surabaya, Jawa Timur 60263"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.729,
+          -7.271
+        ]
+      },
+      "properties": {
+        "id": "106",
+        "Evakuasi": "Pasar Kembang",
+        "alamat": "Jl. Pasar Kembang, Wonorejo, Kec. Tegalsari, Surabaya, Jawa Timur 60263"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.735,
+          -7.26
+        ]
+      },
+      "properties": {
+        "id": "107",
+        "Evakuasi": "JW Marriott Hotel Surabaya",
+        "alamat": "Jl. Embong Malang No.85-89, Kedungdoro, Kec. Tegalsari, Surabaya, Jawa Timur 60261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.735,
+          -7.26
+        ]
+      },
+      "properties": {
+        "id": "108",
+        "Evakuasi": "Masjid Baiturrahman JW Marriott",
+        "alamat": "Jl. Kedung Turi II No.16, Kedungdoro, Kec. Tegalsari, Surabaya, Jawa Timur 60261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.734,
+          -7.259
+        ]
+      },
+      "properties": {
+        "id": "109",
+        "Evakuasi": "Amaris Hotel Embong Malang Surabaya",
+        "alamat": "Jl. Kedung Doro No.1-3, Kedungdoro, Kec. Tegalsari, Surabaya, Jawa Timur 60261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.263
+        ]
+      },
+      "properties": {
+        "id": "110",
+        "Evakuasi": "Sheraton Surabaya Hotel & Towers",
+        "alamat": "Jl. Embong Malang No.25-31, Kedungdoro, Kec. Tegalsari, Surabaya, Jawa Timur 60261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.263
+        ]
+      },
+      "properties": {
+        "id": "111",
+        "Evakuasi": "Tunjungan Plaza",
+        "alamat": " Jl. Jenderal Basuki Rachmat No.8-12 lantai 5, Kedungdoro, Kec. Tegalsari, Surabaya, Jawa Timur 60261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.262
+        ]
+      },
+      "properties": {
+        "id": "112",
+        "Evakuasi": "Four points by Sheraton Surabaya",
+        "alamat": "Jl. Embong Malang No.25-31, Kedungdoro, Kec. Tegalsari, Surabaya, Jawa Timur 60261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.262
+        ]
+      },
+      "properties": {
+        "id": "113",
+        "Evakuasi": "Tunjungan Hotel Surabaya",
+        "alamat": "Jl. Tunjungan No.102-104, Kedungdoro, Kec. Tegalsari, Surabaya, Jawa Timur 60261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.738,
+          -7.261
+        ]
+      },
+      "properties": {
+        "id": "114",
+        "Evakuasi": "Gedung Ekonomi",
+        "alamat": "Jl. Embong Malang No.61-65, Kedungdoro, Kec. Tegalsari, Surabaya, Jawa Timur 60261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.732,
+          -7.266
+        ]
+      },
+      "properties": {
+        "id": "115",
+        "Evakuasi": "Laboratorium Medis Kedungdoro",
+        "alamat": "Jl. Kedungsari No.84-A, Kedungdoro, Kec. Tegalsari, Surabaya, Jawa Timur 60261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.735,
+          -7.263
+        ]
+      },
+      "properties": {
+        "id": "116",
+        "Evakuasi": "Masjid Khoirul Huda",
+        "alamat": "Jl. Gubeng Jaya II KA No.1-E, RT.016/RW.02, Gubeng, Kec. Gubeng, Surabaya, Jawa Timur 60281"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.267
+        ]
+      },
+      "properties": {
+        "id": "117",
+        "Evakuasi": "Midtown Hotel Surabaya",
+        "alamat": "Jl. Basuki Rahmat No.76, Tegalsari, Kec. Tegalsari, Surabaya, Jawa Timur 60262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.267
+        ]
+      },
+      "properties": {
+        "id": "118",
+        "Evakuasi": "Favehotel MEX Tunjungan",
+        "alamat": " Jl. Pregolan No.1-3-5, Tegalsari, Kec. Tegalsari, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.736,
+          -7.267
+        ]
+      },
+      "properties": {
+        "id": "119",
+        "Evakuasi": "Kodim 0832 Surabaya Selatan",
+        "alamat": "Jl. Tegalsari No.89, RT.002/RW.01, Tegalsari, Kec. Tegalsari, Surabaya, Jawa Timur 60262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.737,
+          -7.267
+        ]
+      },
+      "properties": {
+        "id": "120",
+        "Evakuasi": "Hotel Bisanta Bidakara Tunjungan",
+        "alamat": "Jl. Tegalsari No.77-85, Tegalsari, Kec. Tegalsari, Surabaya, Jawa Timur 60262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.738,
+          -7.268
+        ]
+      },
+      "properties": {
+        "id": "121",
+        "Evakuasi": "Gereja Kristen Abdiel Elyon",
+        "alamat": "Jl. Pregolan Bunder No.46-48, Tegalsari, Kec. Tegalsari, Surabaya, Jawa Timur 60262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.268
+        ]
+      },
+      "properties": {
+        "id": "122",
+        "Evakuasi": "PT. Trust Finance Indonesia",
+        "alamat": "Jl. Kombes Pol. Moh. Duryat No.14-15 Blok A-10, Tegalsari, Kec. Tegalsari, Surabaya, Jawa Timur 60262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.268
+        ]
+      },
+      "properties": {
+        "id": "123",
+        "Evakuasi": "Royal Regantris Cendana",
+        "alamat": "Jl. Kombes Pol. Moh. Duryat No.6, Tegalsari, Kec. Tegalsari, Surabaya, Jawa Timur 60262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.738,
+          -7.27
+        ]
+      },
+      "properties": {
+        "id": "124",
+        "Evakuasi": "Gereja Mawar Sharon Surabaya",
+        "alamat": "Jl. Cempaka No.16-24, Tegalsari, Kec. Tegalsari, Surabaya, Jawa Timur 60262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.723,
+          -7.243
+        ]
+      },
+      "properties": {
+        "id": "125",
+        "Evakuasi": "Masjid Roudlotul falah Sby",
+        "alamat": "Jl. Prof. DR. Moestopo No.14a, Mojo, Kec. Gubeng, Surabaya, Jawa Timur 60285"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.722,
+          -7.242
+        ]
+      },
+      "properties": {
+        "id": "126",
+        "Evakuasi": "Masjid Roudlotul Ulum  Dupak Baru",
+        "alamat": "Jl. Dupak Baru III No.43, Jepara, Kec. Bubutan, Surabaya, Jawa Timur 60171"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.722,
+          -7.238
+        ]
+      },
+      "properties": {
+        "id": "127",
+        "Evakuasi": "Masjid Al-Hilal",
+        "alamat": "Jl. Raya Purwodadi No.86-88, Jepara, Kec. Bubutan, Surabaya, Jawa Timur 60171"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.729,
+          -7.244
+        ]
+      },
+      "properties": {
+        "id": "128",
+        "Evakuasi": "Balai RW VII Kel. Jepara",
+        "alamat": "Jl. Dupak Jaya No.27, Jepara, Kec. Bubutan, Surabaya, Jawa Timur 60171"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.734,
+          -7.258
+        ]
+      },
+      "properties": {
+        "id": "129",
+        "Evakuasi": "Grand Empire Palace Hotel",
+        "alamat": "Jl. Blauran No.57-75, Genteng, Kec. Genteng, Surabaya, Jawa Timur 60262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.736,
+          -7.257
+        ]
+      },
+      "properties": {
+        "id": "130",
+        "Evakuasi": "SMPN 4 Surabaya",
+        "alamat": "Jl. Tanjung Anom No.12, Genteng, Kec. Genteng, Surabaya, Jawa Timur 60275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.257
+        ]
+      },
+      "properties": {
+        "id": "131",
+        "Evakuasi": "Perum Perhutsni divisi Regional Jawa Timur",
+        "alamat": "Jl. Genteng Kali No.49, Genteng, Surabaya, Jawa Timur 60275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.742,
+          -7.256
+        ]
+      },
+      "properties": {
+        "id": "132",
+        "Evakuasi": "PT Pupuk Indonesia wilayah 3A Jatim",
+        "alamat": "Jl. Genteng Kali No.55, Genteng, Kec. Genteng, Surabaya, Jawa Timur 60275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.256
+        ]
+      },
+      "properties": {
+        "id": "133",
+        "Evakuasi": "UPT TAMAN BUDAYA JATIM",
+        "alamat": "Jl. Genteng Kali No.85, Genteng, Kec. Genteng, Surabaya, Jawa Timur 60275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.739,
+          -7.257
+        ]
+      },
+      "properties": {
+        "id": "134",
+        "Evakuasi": "Hotel platinum Tunjungan Sby",
+        "alamat": "Jl. Tunjungan No.11 - 21, Genteng, Kec. Genteng, Surabaya, Jawa Timur 60275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.259
+        ]
+      },
+      "properties": {
+        "id": "135",
+        "Evakuasi": "Hotel Paviljoen",
+        "alamat": "Jl. Genteng Besar No.94-98, Genteng, Kec. Genteng, Surabaya, Jawa Timur 60275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.734,
+          -7.258
+        ]
+      },
+      "properties": {
+        "id": "136",
+        "Evakuasi": "Hotel 88 Embong Malang Sby",
+        "alamat": "Jl. Embong Malang No.84, Genteng, Kec. Genteng, Surabaya, Jawa Timur 60261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.261
+        ]
+      },
+      "properties": {
+        "id": "137",
+        "Evakuasi": "Exelco- SUB Sentral Tujungan",
+        "alamat": "Jl. Tunjungan No.73, Genteng, Kec. Genteng, Surabaya, Jawa Timur 60275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.74,
+          -7.259
+        ]
+      },
+      "properties": {
+        "id": "138",
+        "Evakuasi": "Majapahit Hotel Surabaya- M Gallery Collection",
+        "alamat": "Jl. Tunjungan No.65, Genteng, Kec. Genteng, Surabaya, Jawa Timur 60275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.258
+        ]
+      },
+      "properties": {
+        "id": "139",
+        "Evakuasi": "Dinas Pendidikan Provinsi Jawa Timur",
+        "alamat": "Jl. Genteng Kali No.33, Genteng, Kec. Genteng, Surabaya, Jawa Timur 60275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.738,
+          -7.257
+        ]
+      },
+      "properties": {
+        "id": "140",
+        "Evakuasi": "Gedung Cak Durasim",
+        "alamat": "Jl. Genteng Kali No.85, Genteng, Kec. Genteng, Surabaya, Jawa Timur 60275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.734,
+          -7.255
+        ]
+      },
+      "properties": {
+        "id": "141",
+        "Evakuasi": "BG Junction Mall",
+        "alamat": "Jl. Bubutan No.1-7, Bubutan, Kec. Bubutan, Surabaya, Jawa Timur 60174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.734,
+          -7.249
+        ]
+      },
+      "properties": {
+        "id": "142",
+        "Evakuasi": "Dinas Pemadam Kebakaran Kota Surabaya",
+        "alamat": "Jl. Pasar Turi No.21, Bubutan, Kec. Bubutan, Surabaya, Jawa Timur 60174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.735,
+          -7.251
+        ]
+      },
+      "properties": {
+        "id": "143",
+        "Evakuasi": "Gedung Kencana",
+        "alamat": "Jl. Bubutan No.127, Alun-alun Contong, Kec. Bubutan, Surabaya, Jawa Timur 60174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.733,
+          -7.25
+        ]
+      },
+      "properties": {
+        "id": "144",
+        "Evakuasi": "crown Prince Hotel surabaya City Center",
+        "alamat": "Jl. Basuki Rahmat No.123-127, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.734,
+          -7.252
+        ]
+      },
+      "properties": {
+        "id": "145",
+        "Evakuasi": "SD-SMP Ktaolik Stella Maris",
+        "alamat": "Jl. Tembaan No.18-22, Bubutan, Kec. Bubutan, Surabaya, Jawa Timur 60174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.731,
+          -7.25
+        ]
+      },
+      "properties": {
+        "id": "146",
+        "Evakuasi": "PT Gudang Garam",
+        "alamat": "Jl. Pengenal No.7-15, Bubutan, Kec. Bubutan, Surabaya, Jawa Timur 60174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.735,
+          -7.252
+        ]
+      },
+      "properties": {
+        "id": "147",
+        "Evakuasi": "Museum Dr. Soetomo SBY",
+        "alamat": "Jl. Bubutan No.85-87, Bubutan, Kec. Bubutan, Surabaya, Jawa Timur 60174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.73,
+          -7.252
+        ]
+      },
+      "properties": {
+        "id": "148",
+        "Evakuasi": "SMK Negeri 7 Surabaya",
+        "alamat": "Jl. Pawiyatan No.2, Bubutan, Kec. Bubutan, Surabaya, Jawa Timur 60174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.732,
+          -7.253
+        ]
+      },
+      "properties": {
+        "id": "149",
+        "Evakuasi": "Asrama Polisi Koblen 7",
+        "alamat": "PPXM+64P, Jl. Koblen, Bubutan, Kec. Bubutan, Surabaya, Jawa Timur 60174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.262
+        ]
+      },
+      "properties": {
+        "id": "150",
+        "Evakuasi": "Sentral Tunjungan",
+        "alamat": "Jl. Tunjungan No.99, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.742,
+          -7.262
+        ]
+      },
+      "properties": {
+        "id": "151",
+        "Evakuasi": "Swiss- Bellin Tunjungan surabaya",
+        "alamat": "Jl. Tunjungan No.101, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.742,
+          -7.263
+        ]
+      },
+      "properties": {
+        "id": "152",
+        "Evakuasi": "Grand Inna Tunjungan Hotel Surabaya",
+        "alamat": "Jl. Gubernur Suryo No.1 - 3, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.262
+        ]
+      },
+      "properties": {
+        "id": "153",
+        "Evakuasi": "Stikes - SMK Kesehatan Nusantara",
+        "alamat": "Jl. Simpang Dukuh No.11, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.263
+        ]
+      },
+      "properties": {
+        "id": "154",
+        "Evakuasi": "SMA Trimurti",
+        "alamat": "Jl. Gubernur Suryo No.3, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.744,
+          -7.263
+        ]
+      },
+      "properties": {
+        "id": "155",
+        "Evakuasi": "Gedung Negara Grahadi",
+        "alamat": "PPPV+R96, Jl. Gubernur Suryo, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.744,
+          -7.264
+        ]
+      },
+      "properties": {
+        "id": "156",
+        "Evakuasi": "SMA Negeri 6 Surabaya",
+        "alamat": "PPPV+PQW, Jl. Gubernur Suryo No.11, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.745,
+          -7.263
+        ]
+      },
+      "properties": {
+        "id": "157",
+        "Evakuasi": "Masjid As-Sakinah Alun-Alun Surabaya",
+        "alamat": "Jl. Gubernur Suryo No.11, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.745,
+          -7.263
+        ]
+      },
+      "properties": {
+        "id": "158",
+        "Evakuasi": "DPRD Kota Surabaya",
+        "alamat": "Jl. Yos Sudarso No.18 - 22, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60272"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.745,
+          -7.263
+        ]
+      },
+      "properties": {
+        "id": "159",
+        "Evakuasi": "Rumah Bahasa Surabaya",
+        "alamat": "Jl. Yos Sudarso No.15, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.745,
+          -7.264
+        ]
+      },
+      "properties": {
+        "id": "160",
+        "Evakuasi": "Balai Pemuda Surabaya",
+        "alamat": "Jl. Gubernur Suryo No.15, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.747,
+          -7.264
+        ]
+      },
+      "properties": {
+        "id": "161",
+        "Evakuasi": "Grand Surabaya Hotel",
+        "alamat": "Jl. Pemuda No.21, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.747,
+          -7.263
+        ]
+      },
+      "properties": {
+        "id": "162",
+        "Evakuasi": "Garden Palace Hotel Surabaya",
+        "alamat": "Jl. Yos Sudarso No.11, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.747,
+          -7.262
+        ]
+      },
+      "properties": {
+        "id": "163",
+        "Evakuasi": "GTI Bukit Zaitun",
+        "alamat": "Jl. Taman Simpang No.12, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.748,
+          -7.263
+        ]
+      },
+      "properties": {
+        "id": "164",
+        "Evakuasi": "WTC Surabaya",
+        "alamat": "Jl. Pemuda No.27-31, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60263"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.748,
+          -7.265
+        ]
+      },
+      "properties": {
+        "id": "165",
+        "Evakuasi": "Delta XXI",
+        "alamat": "Jl. Pemuda No.31-37 Lt. 5, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.742,
+          -7.263
+        ]
+      },
+      "properties": {
+        "id": "166",
+        "Evakuasi": "Taman Apsari",
+        "alamat": "Jl. Taman Apsari No.63, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.264
+        ]
+      },
+      "properties": {
+        "id": "167",
+        "Evakuasi": "kampi Hotel tunjungan sby",
+        "alamat": "Jl. Taman Apsari No.3 5, RW.5, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.264
+        ]
+      },
+      "properties": {
+        "id": "168",
+        "Evakuasi": "Kantor OJK",
+        "alamat": "Jl. Gubernur Suryo No.28-30, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.744,
+          -7.265
+        ]
+      },
+      "properties": {
+        "id": "169",
+        "Evakuasi": "SMP Kristen Petra 2",
+        "alamat": "Jl. Embong Wungu No.2, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.744,
+          -7.266
+        ]
+      },
+      "properties": {
+        "id": "170",
+        "Evakuasi": "PLN PT. Persero- Area Pengatur Distribusi Jatim",
+        "alamat": "Jl. Embong Wungu No.4, RW.2, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.745,
+          -7.266
+        ]
+      },
+      "properties": {
+        "id": "171",
+        "Evakuasi": "Graha Bukopin",
+        "alamat": "Jl. Panglima Sudirman No.10-18, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.746,
+          -7.265
+        ]
+      },
+      "properties": {
+        "id": "172",
+        "Evakuasi": "graha sudirman",
+        "alamat": "Jl. Panglima Sudirman No.7-9, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.747,
+          -7.265
+        ]
+      },
+      "properties": {
+        "id": "173",
+        "Evakuasi": "Sinarmas land plaza",
+        "alamat": "Jl. Pemuda No.60-70, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.746,
+          -7.265
+        ]
+      },
+      "properties": {
+        "id": "174",
+        "Evakuasi": "Hoel 88 Embong Kenongo sby",
+        "alamat": "Jl. Embong Kenongo No.11-17, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.747,
+          -7.265
+        ]
+      },
+      "properties": {
+        "id": "175",
+        "Evakuasi": "Triliun Office & residence",
+        "alamat": "Jl. Pemuda, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.747,
+          -7.266
+        ]
+      },
+      "properties": {
+        "id": "176",
+        "Evakuasi": "Mozaren Surabaya",
+        "alamat": "Jl. Kayoon No.4-10, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.749,
+          -7.268
+        ]
+      },
+      "properties": {
+        "id": "177",
+        "Evakuasi": "Gereja Kristen Abdiel Trinitas",
+        "alamat": "Jl. Kayoon No.22, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.744,
+          -7.267
+        ]
+      },
+      "properties": {
+        "id": "178",
+        "Evakuasi": "Hotel Aria Centra",
+        "alamat": "Jl. Taman AIS Nasution No.37, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.266
+        ]
+      },
+      "properties": {
+        "id": "179",
+        "Evakuasi": "Wyndham Surabaya",
+        "alamat": "Jl. Basuki Rahmat No.67 - 73, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.742,
+          -7.269
+        ]
+      },
+      "properties": {
+        "id": "180",
+        "Evakuasi": "Dyandra Convetion Center Surabaya",
+        "alamat": "Jl. Basuki Rahmat No.93-105, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.742,
+          -7.268
+        ]
+      },
+      "properties": {
+        "id": "181",
+        "Evakuasi": "Graha Pacific",
+        "alamat": "Jl. Jenderal Basuki Rachmat No.87-91, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.742,
+          -7.27
+        ]
+      },
+      "properties": {
+        "id": "182",
+        "Evakuasi": "Crown Prince Hotel surabaya City Center",
+        "alamat": "Jl. Basuki Rahmat No.123-127, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.742,
+          -7.271
+        ]
+      },
+      "properties": {
+        "id": "183",
+        "Evakuasi": "JAPFA Tower I",
+        "alamat": "Jl. Basuki Rahmat No.129-137, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.742,
+          -7.272
+        ]
+      },
+      "properties": {
+        "id": "184",
+        "Evakuasi": "Goldvitel Hotel",
+        "alamat": "Jl. Basuki Rahmat No.147, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.27
+        ]
+      },
+      "properties": {
+        "id": "185",
+        "Evakuasi": "Gedung Bumi Mandiri",
+        "alamat": "Jl. Jenderal Basuki Rachmat Jl. Basuki Rahmat No.129-137 Lantai 11, Embong Kaliasin, Genteng, Surabaya, East Java 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.269
+        ]
+      },
+      "properties": {
+        "id": "186",
+        "Evakuasi": "Elmi Hotel",
+        "alamat": "Jl. Panglima Sudirman No.42-44, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.273
+        ]
+      },
+      "properties": {
+        "id": "187",
+        "Evakuasi": "Intiland Tower Surabaya",
+        "alamat": "Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.744,
+          -7.273
+        ]
+      },
+      "properties": {
+        "id": "188",
+        "Evakuasi": "Praxis Apartment",
+        "alamat": "Jl. Kayoon No.89, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.744,
+          -7.273
+        ]
+      },
+      "properties": {
+        "id": "189",
+        "Evakuasi": "Praxis",
+        "alamat": "Jl. Sono Kembang No.4-6, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.744,
+          -7.272
+        ]
+      },
+      "properties": {
+        "id": "190",
+        "Evakuasi": "Gerai IM3 Kayoon Surabaya",
+        "alamat": "Jl. Kayoon No.72, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.743,
+          -7.272
+        ]
+      },
+      "properties": {
+        "id": "191",
+        "Evakuasi": "Blue Dolphin Playskool-Surabaya",
+        "alamat": "Jl. Embong Cerme No.41, RT.003/RW.04, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.744,
+          -7.27
+        ]
+      },
+      "properties": {
+        "id": "192",
+        "Evakuasi": "Hotel sulawesi Gorontalo",
+        "alamat": "Jl. Embong Cerme No.5, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.747,
+          -7.27
+        ]
+      },
+      "properties": {
+        "id": "193",
+        "Evakuasi": "Kanwil Kementerian Hukum Jatim",
+        "alamat": "Jl. Kayoon No.50-52, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.746,
+          -7.27
+        ]
+      },
+      "properties": {
+        "id": "194",
+        "Evakuasi": "dinas kepemudaan dan olahraga prov. Jatim",
+        "alamat": "Jl. Kayoon No.56, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.745,
+          -7.268
+        ]
+      },
+      "properties": {
+        "id": "195",
+        "Evakuasi": "MNC Tower Surabaya",
+        "alamat": "Jl. Taman AIS Nasution No.21, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.745,
+          -7.268
+        ]
+      },
+      "properties": {
+        "id": "196",
+        "Evakuasi": "Wisma jerman",
+        "alamat": "Jl. Taman AIS Nasution No.15, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.747,
+          -7.269
+        ]
+      },
+      "properties": {
+        "id": "197",
+        "Evakuasi": "The Win Hotel",
+        "alamat": "Jl. Embong Tanjung No.46 - 48, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.747,
+          -7.269
+        ]
+      },
+      "properties": {
+        "id": "198",
+        "Evakuasi": "Kantor Pelayanan Pajak Pratama Surabaya genteng",
+        "alamat": "Jl. Kayoon No.28, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.269
+        ]
+      },
+      "properties": {
+        "id": "199",
+        "Evakuasi": "Ibis Suarabaya City Center",
+        "alamat": "Jl. Basuki Rahmat No.94 96, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.27
+        ]
+      },
+      "properties": {
+        "id": "200",
+        "Evakuasi": "Bank Jatim Kantor Pusat",
+        "alamat": "Jl. Basuki Rahmat No.98-104, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.271
+        ]
+      },
+      "properties": {
+        "id": "201",
+        "Evakuasi": "Bumi Surabaya Ciy Resort",
+        "alamat": "Jl. Basuki Rahmat No.106-128, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.271
+        ]
+      },
+      "properties": {
+        "id": "202",
+        "Evakuasi": "Masjid Baitusy syakur",
+        "alamat": "PPHR+Q7V, Jl. Basuki Rahmat, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.741,
+          -7.273
+        ]
+      },
+      "properties": {
+        "id": "203",
+        "Evakuasi": "SDN Kaliasin V",
+        "alamat": "Jl. Keputran Kejambon II No.67, RT.006/RW.12, Embong Kaliasin, Kec. Genteng, Surabaya, Jawa Timur 60271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.737,
+          -7.242
+        ]
+      },
+      "properties": {
+        "id": "204",
+        "Evakuasi": "RSUP Kemenkes Surabaya",
+        "alamat": "Jl. Indrapura No.17, Krembangan Sel., Kec. Krembangan, Surabaya, Jawa Timur 60164"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.737,
+          -7.241
+        ]
+      },
+      "properties": {
+        "id": "205",
+        "Evakuasi": "SMK Kawung 1 Surabaya",
+        "alamat": "Jl. Rajawali No.85-93, Kemayoran, Kec. Krembangan, Surabaya, Jawa Timur 60176"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.736,
+          -7.242
+        ]
+      },
+      "properties": {
+        "id": "206",
+        "Evakuasi": "Prodi DIII Keperawatan Sutopo Poltekkes Kemenkes Surabaya",
+        "alamat": "Jl. Parang Kusumo No.1, Kemayoran, Kec. Krembangan, Surabaya, Jawa Timur 60176"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.734,
+          -7.241
+        ]
+      },
+      "properties": {
+        "id": "207",
+        "Evakuasi": "SDN Kemayoran surabaya",
+        "alamat": "Jl. Kemayoran Baru No.88, Kemayoran, Kec. Krembangan, Surabaya, Jawa Timur 60176"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.733,
+          -7.272
+        ]
+      },
+      "properties": {
+        "id": "208",
+        "Evakuasi": "Kantor Kelurahan Wonorejo Kecamatan Tegalsari",
+        "alamat": "Jl. Wonorejo IV No.48, Wonorejo, Kec. Tegalsari, Surabaya, Jawa Timur 60263"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.733,
+          -7.275
+        ]
+      },
+      "properties": {
+        "id": "209",
+        "Evakuasi": "Vihara Dhammadipta Surabaya",
+        "alamat": "Jl. Pandegiling No.260, Wonorejo, Kec. Tegalsari, Surabaya, Jawa Timur 60264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.727,
+          -7.262
+        ]
+      },
+      "properties": {
+        "id": "210",
+        "Evakuasi": "Kantor Kelurahan Sawahan",
+        "alamat": "Jl. Arjuno No.121, Sawahan, Kec. Sawahan, Surabaya, Jawa Timur 60251"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.728,
+          -7.261
+        ]
+      },
+      "properties": {
+        "id": "211",
+        "Evakuasi": "Masjid Al Muqorrobien",
+        "alamat": "Jl. Kedung Anyar V No.8, Sawahan, Kec. Sawahan, Surabaya, Jawa Timur 60251"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.733,
+          -7.257
+        ]
+      },
+      "properties": {
+        "id": "212",
+        "Evakuasi": "Pasar Blauran Baru",
+        "alamat": "Jl. Kranggan blok LB 11, Sawahan, Kec. Sawahan, Surabaya, Jawa Timur 60251"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.73,
+          -7.256
+        ]
+      },
+      "properties": {
+        "id": "213",
+        "Evakuasi": "Prime Royal Hotel",
+        "alamat": "Jl. Kranggan No.81-101, Sawahan, Kec. Sawahan, Surabaya, Jawa Timur 60251"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.73,
+          -7.257
+        ]
+      },
+      "properties": {
+        "id": "214",
+        "Evakuasi": "Ibis Surabaya Tidar",
+        "alamat": "Jl. Tidar No.74, Sawahan, Kec. Sawahan, Surabaya, Jawa Timur 60251"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.728,
+          -7.257
+        ]
+      },
+      "properties": {
+        "id": "215",
+        "Evakuasi": "Gereja Yesus Sejati Surabaya",
+        "alamat": "Jl. Merbabu No.6, Sawahan, Kec. Sawahan, Surabaya, Jawa Timur 60251"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.732,
+          -7.259
+        ]
+      },
+      "properties": {
+        "id": "216",
+        "Evakuasi": "Gereja Katolik Paroki Santo Vincentius A Paulo, Widodaren Sawahan",
+        "alamat": "Jl. Widodaren No.15, Sawahan, Kec. Sawahan, Surabaya, Jawa Timur 60251"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.731,
+          -7.261
+        ]
+      },
+      "properties": {
+        "id": "217",
+        "Evakuasi": "Nite & Day Hotel Kedungdoro",
+        "alamat": "Jl. Kedung Doro No.36-46 Blok D38, Sawahan, Kec. Sawahan, Surabaya, Jawa Timur 60261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.725,
+          -7.264
+        ]
+      },
+      "properties": {
+        "id": "218",
+        "Evakuasi": "SDN Sawahan IV",
+        "alamat": "Jl. Kedung Anyar VII No.58, Sawahan, Kec. Sawahan, Surabaya, Jawa Timur 60252"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.732,
+          -7.246
+        ]
+      },
+      "properties": {
+        "id": "219",
+        "Evakuasi": "Pusat Grosir Surabaya",
+        "alamat": "Gundih, Kec. Bubutan, Surabaya, Jawa Timur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.731,
+          -7.247
+        ]
+      },
+      "properties": {
+        "id": "220",
+        "Evakuasi": "Stasiun Surabaya Pasar Turi",
+        "alamat": "Jl. Semarang No.1, Tembok Dukuh, Kec. Bubutan, Surabaya, Jawa Timur 60173"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.73,
+          -7.247
+        ]
+      },
+      "properties": {
+        "id": "221",
+        "Evakuasi": "Dupak Grosir Surabaya",
+        "alamat": "Jl. Gundih No.8-14, Gundih, Kec. Bubutan, Surabaya, Jawa Timur 60172"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.73,
+          -7.247
+        ]
+      },
+      "properties": {
+        "id": "222",
+        "Evakuasi": "D'Carol Hotel Surabaya",
+        "alamat": "Jl. Gundih No.8, Gundih, Kec. Bubutan, Surabaya, Jawa Timur 60172"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.731,
+          -7.24
+        ]
+      },
+      "properties": {
+        "id": "223",
+        "Evakuasi": "RSUP Kemenkes Surabaya",
+        "alamat": "Jl. Indrapura No.17, Krembangan Sel., Kec. Krembangan, Surabaya, Jawa Timur 60164"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.731,
+          -7.238
+        ]
+      },
+      "properties": {
+        "id": "224",
+        "Evakuasi": "SMK Kawung 1 Surabaya",
+        "alamat": "Jl. Rajawali No.85-93, Kemayoran, Kec. Krembangan, Surabaya, Jawa Timur 60176"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.73,
+          -7.24
+        ]
+      },
+      "properties": {
+        "id": "225",
+        "Evakuasi": "Prodi DIII keperawatan Sutopo Poltekkes Kemenkes Surabaya",
+        "alamat": "Jl. Parang Kusumo No.1, Kemayoran, Kec. Krembangan, Surabaya, Jawa Timur 60176"
+      }
+    }
+  ]
+}

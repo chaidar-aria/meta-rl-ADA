@@ -1,103 +1,64 @@
 # flood_trainer.py
-# Berisi loop training RL standar dan fungsi evaluasi untuk skenario banjir.
-
 import torch
 import numpy as np
-import json
-from pathlib import Path
-
-from device_config import DEVICE
-from flood_rl_core import rollout, compute_loss
-from osrm_utils import get_osrm_distance_cached
-from data_utils import is_coord_in_flood_zone
-from logging_utils import get_or_create_log_file
+from rl_core import rollout, compute_loss
 
 
 def train_rl_model(
-    model, optimizer, num_episodes, user_coords, evac_candidates, flood_gdf
+    model, optimizer, num_episodes, user_coords, evac_candidates, flood_gdf, tif_path
 ):
     """
-    Fungsi utama untuk melatih model RL pada satu skenario banjir.
+    Loop utama training RL.
+
+    Args:
+        evac_candidates: List of dict [{'coord':..., 'name':..., 'elev':...}]
+                         (Harus sudah ada key 'elev' dari pre-processing di notebook)
+        tif_path: Path ke file elevasi (untuk menghitung elevasi user yg random)
     """
-    print(f"\n🚀 Memulai training untuk {num_episodes} episode...")
-    model.train()  # Set model ke mode training
+    print(f"\n🚀 Memulai Training: {num_episodes} Episode")
+    print(f"   ℹ️ Data: {len(user_coords)} Users, {len(evac_candidates)} Titik Evakuasi")
+
+    model.train()
+    history_rewards = []
 
     for episode in range(num_episodes):
-        # Jalankan rollout untuk mendapatkan pengalaman
-        trajectories = rollout(model, user_coords, evac_candidates, flood_gdf)
+        # 1. Jalankan Rollout (Simulasi 1 set user)
+        trajectories = rollout(model, user_coords, evac_candidates, flood_gdf, tif_path)
 
         if not trajectories:
-            if (episode + 1) % 10 == 0:
-                print(
-                    f"Episode {episode+1}/{num_episodes} | Tidak ada trajektori valid."
-                )
+            print(f"   ⚠️ Episode {episode+1}: Tidak ada trajektori valid.")
             continue
 
+        # 2. Ambil Log Probabilitas & Reward
         log_probs = [t["log_prob"] for t in trajectories]
         rewards = [t["reward"] for t in trajectories]
 
-        # Hitung loss dan update model
+        # 3. Hitung Loss & Update Model
         loss = compute_loss(log_probs, rewards)
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
 
-        if (episode + 1) % 10 == 0:
-            avg_reward = np.mean(rewards)
+        optimizer.zero_grad()
+        if isinstance(loss, torch.Tensor):
+            loss.backward()
+            optimizer.step()
+            loss_val = loss.item()
+        else:
+            loss_val = 0.0
+
+        # 4. Logging & Statistik
+        avg_reward = np.mean(rewards)
+        history_rewards.append(avg_reward)
+
+        # Log setiap 5 episode
+        if (episode + 1) % 5 == 0:
+            # Ambil contoh aksi terakhir untuk dicek manusia
+            last_info = trajectories[-1]["details"]
             print(
-                f"Episode {episode+1}/{num_episodes} | Rata-rata Reward: {avg_reward:.2f} | Loss: {loss.item():.2f}"
+                f"Episode {episode+1}/{num_episodes} | Avg Reward: {avg_reward:.2f} | Loss: {loss_val:.2f}"
+            )
+            print(f"   ↳ Contoh: User lari ke '{last_info['name']}'")
+            print(
+                f"      (Jarak: {last_info['dist']:.2f}km, Beda Elevasi: {last_info['elev_diff']:.1f}m)"
             )
 
-    print("✅ Training selesai.")
-    return model
-
-
-def evaluate_model(
-    model, user_coords, evac_candidates, flood_gdf, output_dir="hasil_evaluasi_banjir"
-):
-    """Mengevaluasi model yang sudah dilatih."""
-    print("\n🔍 Mengevaluasi model terlatih...")
-    model.eval()  # Set model ke mode evaluasi
-    correct_predictions = 0
-
-    with torch.no_grad():
-        for user_lat, user_lon in user_coords:
-            best_score = -float("inf")
-            chosen_evac = None
-
-            for evac_lat, evac_lon in evac_candidates:
-                dist_km = get_osrm_distance_cached(
-                    user_lat, user_lon, evac_lat, evac_lon
-                )
-                is_flooded = is_coord_in_flood_zone(flood_gdf, evac_lat, evac_lon)
-
-                state = torch.tensor(
-                    [
-                        user_lat / 100.0,
-                        user_lon / 100.0,
-                        evac_lat / 100.0,
-                        evac_lon / 100.0,
-                        dist_km / 10.0,
-                        1.0 if is_flooded else 0.0,
-                    ],
-                    dtype=torch.float32,
-                ).to(DEVICE)
-
-                score = model(state).item()
-
-                if score > best_score:
-                    best_score = score
-                    chosen_evac = (evac_lat, evac_lon)
-
-            if chosen_evac:
-                is_safe = not is_coord_in_flood_zone(
-                    flood_gdf, chosen_evac[0], chosen_evac[1]
-                )
-                if is_safe:
-                    correct_predictions += 1
-
-    accuracy = (correct_predictions / len(user_coords)) * 100 if user_coords else 0
-    print(
-        f"✅ Evaluasi Selesai | Akurasi Pilihan Aman: {accuracy:.2f}% ({correct_predictions}/{len(user_coords)})"
-    )
-    return accuracy
+    print("\n✅ Training Selesai.")
+    return model, history_rewards
